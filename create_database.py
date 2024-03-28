@@ -10,10 +10,6 @@ CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
 
 
-
-
-os.environ["OPENAI_API_KEY"] = api_key
-
 def main():
     generate_data_store()
 

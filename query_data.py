@@ -7,7 +7,6 @@ from langchain.prompts import ChatPromptTemplate
 
 import os
 
-os.environ["OPENAI_API_KEY"] = api_key
 
 __import__('pysqlite3')
 import sys
