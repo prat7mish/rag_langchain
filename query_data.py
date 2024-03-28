@@ -6,7 +6,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
 import os
-api_key = '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'
+api_key = ''
 os.environ["OPENAI_API_KEY"] = api_key
 
 __import__('pysqlite3')
