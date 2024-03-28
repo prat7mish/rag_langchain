@@ -10,7 +10,7 @@ CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
 
 
-api_key = ''
+
 
 os.environ["OPENAI_API_KEY"] = api_key
 
